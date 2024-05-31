@@ -1,12 +1,7 @@
-<script setup>
-import { RouterLink, RouterView } from "vue-router";
-</script>
+<script setup></script>
 
 <template>
-  <header>
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/about">About</RouterLink>
-  </header>
-
-  <RouterView />
+  <div class="font-marko-one">
+    <RouterView />
+  </div>
 </template>
