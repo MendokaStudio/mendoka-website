@@ -57,6 +57,10 @@ const router = createRouter({
       path: "/spire-horizon-online-eula",
       component: SpireHorizonOnlineEula,
     },
+    {
+      path: "/:pathMatch(.*)*",
+      redirect: "/",
+    },
   ],
 });
 

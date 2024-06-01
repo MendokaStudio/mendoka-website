@@ -53,9 +53,7 @@ import router from "@/router";
         <div class="pt-20 pb-16 sm:pb-20 sm:pt-32 lg:py-20 h-fit">
           <div class="relative">
             <div class="max-w-xs mx-auto">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/mendoka-game.appspot.com/o/Logo%2Fmendoka_logo.png?alt=media&token=9c93c587-b3a9-401a-9f54-593ca95e8e48"
-              />
+              <img src="../../public/image/logo/mendoka_logo.png" />
             </div>
             <h1
               class="mt-14 font-display text-2xl text-center font-light text-white"
