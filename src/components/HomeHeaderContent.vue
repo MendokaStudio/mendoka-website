@@ -53,12 +53,12 @@ import router from "@/router";
         <div class="pt-20 pb-16 sm:pb-20 sm:pt-32 lg:py-20 h-fit">
           <div class="relative">
             <div class="max-w-xs mx-auto">
-              <img src="../../public/image/logo/mendoka_logo.png" />
+              <img src="/image/logo/mendoka_logo.png" />
             </div>
             <h1
               class="mt-14 font-display text-2xl text-center font-light text-white"
             >
-              From Pixels to Wonders
+              From Pixels to Wonders z
             </h1>
             <p
               class="mx-auto mt-4 text-sm/6 text-gray-300 text-center max-w-xs sm:max-w-sm px-5"
