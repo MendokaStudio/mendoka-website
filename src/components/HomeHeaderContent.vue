@@ -58,7 +58,7 @@ import router from "@/router";
             <h1
               class="mt-14 font-display text-2xl text-center font-light text-white"
             >
-              From Pixels to Wonders z
+              From Pixels to Wonders
             </h1>
             <p
               class="mx-auto mt-4 text-sm/6 text-gray-300 text-center max-w-xs sm:max-w-sm px-5"
