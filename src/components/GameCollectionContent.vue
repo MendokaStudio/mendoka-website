@@ -4,13 +4,13 @@ import GameCollectionList from "./GameCollectionList.vue";
 
 <template>
   <GameCollectionList
-    date="24 Jan 2024"
+    date="1 August, 2024"
     imageSrc="/image/cover/spire-horizon-online.png"
-    url="https://www.google.com"
+    url="https://sho.mendoka.com/"
   />
   <GameCollectionList
-    date="28 July 2023"
+    date="28 July, 2023"
     imageSrc="/image/cover/spire-horizon.png"
-    url="https://www.google.com"
+    url="https://spirehorizon.mendoka.com"
   />
 </template>
