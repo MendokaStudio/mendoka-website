@@ -1,15 +1,14 @@
 <script setup>
-import HomeMenuContent from "@/components/HomeMenuContent.vue";
 import HomeMainContent from "@/components/HomeMainContent.vue";
-import GameCollectionContent from "@/components/GameCollectionContent.vue";
+import HomeHeaderContent from "@/components/HomeHeaderContent.vue";
 </script>
 
 <template>
-  <main class="flex flex-col min-h-full bg-gray-950 over">
+  <main class="flex flex-col min-h-full bg-slate-950">
     <div>
-      <HomeMenuContent />
+      <HomeHeaderContent />
       <HomeMainContent>
-        <GameCollectionContent />
+        <router-view />
       </HomeMainContent>
     </div>
   </main>

@@ -6,11 +6,15 @@ const props = defineProps({
     type: String,
     default: "",
   },
-  imageSrc: {
+  title: {
     type: String,
     default: "",
   },
-  url: {
+  desp: {
+    type: String,
+    default: "",
+  },
+  videoID: {
     type: String,
     default: "",
   },
@@ -58,24 +62,28 @@ const coverImage = ref(new URL(props.imageSrc, import.meta.url).href);
       <div class="px-6 mx-auto max-w-7xl lg:flex lg:px-8">
         <div class="lg:ml-96 lg:flex lg:w-full lg:justify-end lg:pl-32">
           <div
-            class="max-w-lg mx-auto text-white lg:mx-0 lg:w-0 lg:max-w-xl lg:flex-auto typography"
+            class="max-w-lg mx-auto text-gray-300 lg:mx-0 lg:w-0 lg:max-w-xl lg:flex-auto typography py-6 px-8 border-2 rounded-xl border-white border-opacity-10"
           >
             <div
-              class="relative mt-5 xl:mt-0 overflow-hidden rounded-xl bg-gray-900 [&+*]:mt-8 flex items-center justify-center hover:scale-105 ease-in-out duration-150"
+              class="relative mt-5 xl:mt-0 overflow-hidden rounded-xl bg-gray-900 [&+*]:mt-8 flex items-center justify-center"
             >
               <!-- Main Image -->
 
               <a class="w-full" :href="url" target="_blank">
-                <img
-                  alt=""
-                  loading="lazy"
-                  decoding="async"
-                  data-nimg="1"
-                  className="object-cover w-full h-64"
-                  :src="coverImage"
-                />
+                <iframe
+                  className="w-full h-52"
+                  :src="'https://www.youtube.com/embed/' + videoID"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
               </a>
             </div>
+            <h2>
+              <div class="text-2xl">{{ title }}</div>
+            </h2>
+            <p class="pt-3 text-sm text-gray-400">{{ desp }}</p>
           </div>
         </div>
       </div>

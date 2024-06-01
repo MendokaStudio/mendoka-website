@@ -1,6 +1,6 @@
 <template>
   <div
-    class="no-scrollbar relative flex-auto min-h-screen h-screen overflow-auto"
+    class="relative flex-auto min-h-screen no-scrollbar overflow-auto h-screen"
   >
     <div
       class="pointer-events-none absolute inset-0 z-50 overflow-hidden lg:right-[calc(max(2rem,50%-38rem)+40rem)] lg:min-w-[32rem] lg:overflow-visible"
@@ -27,7 +27,7 @@
       </svg>
     </div>
     <main
-      class="py-20 space-y-20 sm:space-y-32 sm:py-32 mt-[-100px] md:mt-[-200px] lg:mt-0"
+      class="py-20 space-y-20 sm:space-y-5 sm:py-32 mt-[-100px] md:mt-[-200px] lg:mt-0"
     >
       <slot></slot>
     </main>

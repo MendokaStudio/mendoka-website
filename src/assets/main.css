@@ -10,3 +10,23 @@
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox */
 }
+
+.law-text-header {
+  @apply text-3xl text-gray-800 pt-3 font-semibold;
+}
+
+.law-text-paragraph {
+  @apply text-lg text-gray-800;
+}
+
+.law-text-sub-header {
+  @apply text-xl text-gray-800 font-semibold;
+}
+
+.law-list-text {
+  @apply w-fit pb-1;
+}
+
+.law-table-border {
+  @apply border-2 border-gray-800;
+}
