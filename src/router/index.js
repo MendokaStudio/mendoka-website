@@ -21,13 +21,13 @@ const router = createRouter({
       children: [
         {
           path: "",
-          name: "Events",
-          component: EventsContent,
-        },
-        {
-          path: "games",
           name: "Games",
           component: GameCollectionContent,
+        },
+        {
+          path: "events",
+          name: "Events",
+          component: EventsContent,
         },
         {
           path: "about",

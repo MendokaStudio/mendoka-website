@@ -4,7 +4,7 @@ import GameCollectionList from "./GameCollectionList.vue";
 
 <template>
   <GameCollectionList
-    date="1 August, 2024"
+    date="6 December, 2024"
     imageSrc="/image/cover/spire-horizon-online.png"
     url="https://sho.mendoka.com/"
   />
