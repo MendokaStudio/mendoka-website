@@ -48,7 +48,7 @@ import router from "@/router";
       class="relative justify-center sm:justify-start flex w-full lg:pointer-events-auto lg:mr-[calc(max(2rem,50%-38rem)+40rem)] lg:min-w-[32rem] lg:overflow-y-auto lg:overflow-x-hidden lg:pl-[max(4rem,calc(50%-38rem))]"
     >
       <div
-        class="max-w-lg mx-auto lg:mx-0 lg:flex lg:w-96 lg:max-w-none lg:flex-col lg:before:pt-6 justify-center items-center"
+        class="items-center justify-center max-w-lg mx-auto lg:mx-0 lg:flex lg:w-96 lg:max-w-none lg:flex-col lg:before:pt-6"
       >
         <div class="pt-20 pb-16 sm:pb-20 sm:pt-32 lg:py-20 h-fit">
           <div class="relative">
@@ -56,19 +56,19 @@ import router from "@/router";
               <img src="/image/logo/mendoka_logo.png" />
             </div>
             <h1
-              class="mt-14 font-display text-2xl text-center font-light text-white"
+              class="text-2xl font-light text-center text-white mt-14 font-display"
             >
               From Pixels to Wonders
             </h1>
             <p
-              class="mx-auto mt-4 text-sm/6 text-gray-300 text-center max-w-xs sm:max-w-sm px-5"
+              class="max-w-xs px-5 mx-auto mt-4 text-center text-gray-300 text-sm/6 sm:max-w-sm"
             >
               A Solo developer who strives to turn every pixel into an
               extraordinary wonder.
             </p>
 
             <div
-              class="mt-8 flex items-center justify-center gap-x-10 gap-y-3 sm:gap-x-2 lg:justify-center"
+              class="flex items-center justify-center mt-8 gap-x-10 gap-y-3 sm:gap-x-2 lg:justify-center"
             >
               <div class="block space-y-3 sm:space-y-0 sm:flex">
                 <div
@@ -138,7 +138,7 @@ import router from "@/router";
 
                 <a
                   class="group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 transition-colors hover:text-sky-300 gap-x-2"
-                  href="https://ko-fi.com/mendoka"
+                  href="https://ko-fi.com/mendoka/tiers"
                   target="_blank"
                 >
                   <MenuButton
